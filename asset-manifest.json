@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b3ac610.chunk.css",
-    "main.js": "/static/js/main.f6438022.chunk.js",
-    "main.js.map": "/static/js/main.f6438022.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b8b9f84b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b8b9f84b.js.map",
-    "static/js/2.355557dc.chunk.js": "/static/js/2.355557dc.chunk.js",
-    "static/js/2.355557dc.chunk.js.map": "/static/js/2.355557dc.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.9d574a2eac534a7537abf660c324ed45.js": "/precache-manifest.9d574a2eac534a7537abf660c324ed45.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.9b3ac610.chunk.css.map": "/static/css/main.9b3ac610.chunk.css.map",
-    "static/js/2.355557dc.chunk.js.LICENSE.txt": "/static/js/2.355557dc.chunk.js.LICENSE.txt",
-    "static/media/answer_form.jpeg": "/static/media/answer_form.3ad879bc.jpeg",
-    "static/media/style.scss": "/static/media/illustration-section-02.63d0555d.svg",
-    "static/media/ethereum-eth.svg": "/static/media/ethereum-eth.a9709f9a.svg",
-    "static/media/feature-tile-icon-03.svg": "/static/media/feature-tile-icon-03.66f37ba5.svg",
-    "static/media/feature-tile-icon-05.svg": "/static/media/feature-tile-icon-05.fa9ba00b.svg",
-    "static/media/features-split-image-03.png": "/static/media/features-split-image-03.87e4d053.png",
-    "static/media/form.jpeg": "/static/media/form.6ab79af9.jpeg"
+    "main.css": "/landingpage/static/css/main.105c5a8a.chunk.css",
+    "main.js": "/landingpage/static/js/main.0278ae0d.chunk.js",
+    "main.js.map": "/landingpage/static/js/main.0278ae0d.chunk.js.map",
+    "runtime-main.js": "/landingpage/static/js/runtime-main.82fab709.js",
+    "runtime-main.js.map": "/landingpage/static/js/runtime-main.82fab709.js.map",
+    "static/js/2.40e78e9f.chunk.js": "/landingpage/static/js/2.40e78e9f.chunk.js",
+    "static/js/2.40e78e9f.chunk.js.map": "/landingpage/static/js/2.40e78e9f.chunk.js.map",
+    "index.html": "/landingpage/index.html",
+    "precache-manifest.8bcff43a60ed485e315e73bf689a81e5.js": "/landingpage/precache-manifest.8bcff43a60ed485e315e73bf689a81e5.js",
+    "service-worker.js": "/landingpage/service-worker.js",
+    "static/css/main.105c5a8a.chunk.css.map": "/landingpage/static/css/main.105c5a8a.chunk.css.map",
+    "static/js/2.40e78e9f.chunk.js.LICENSE.txt": "/landingpage/static/js/2.40e78e9f.chunk.js.LICENSE.txt",
+    "static/media/answer_form.jpeg": "/landingpage/static/media/answer_form.3ad879bc.jpeg",
+    "static/media/style.scss": "/landingpage/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/ethereum-eth.svg": "/landingpage/static/media/ethereum-eth.a9709f9a.svg",
+    "static/media/feature-tile-icon-03.svg": "/landingpage/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/feature-tile-icon-05.svg": "/landingpage/static/media/feature-tile-icon-05.fa9ba00b.svg",
+    "static/media/features-split-image-03.png": "/landingpage/static/media/features-split-image-03.87e4d053.png",
+    "static/media/form.jpeg": "/landingpage/static/media/form.6ab79af9.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8b9f84b.js",
-    "static/js/2.355557dc.chunk.js",
-    "static/css/main.9b3ac610.chunk.css",
-    "static/js/main.f6438022.chunk.js"
+    "static/js/runtime-main.82fab709.js",
+    "static/js/2.40e78e9f.chunk.js",
+    "static/css/main.105c5a8a.chunk.css",
+    "static/js/main.0278ae0d.chunk.js"
   ]
 }
