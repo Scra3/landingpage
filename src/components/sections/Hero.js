@@ -122,7 +122,7 @@ const Hero = ({
               height={300}/>
           </div>
           <br />
-          <div  className="reveal-from-bottom" data-reveal-delay="1000">
+          <div  className="reveal-from-bottom" data-reveal-delay="800">
             <ButtonGroup>
               <ContactForm/>
             </ButtonGroup>
