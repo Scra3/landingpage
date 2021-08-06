@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { SectionTilesProps } from '../../utils/SectionProps';
+import {SectionTilesProps} from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
@@ -12,16 +12,16 @@ const defaultProps = {
   ...SectionTilesProps.defaults
 }
 const FeaturesTiles = ({
-  className,
-  topOuterDivider,
-  bottomOuterDivider,
-  topDivider,
-  bottomDivider,
-  hasBgColor,
-  invertColor,
-  pushLeft,
-  ...props
-}) => {
+                         className,
+                         topOuterDivider,
+                         bottomOuterDivider,
+                         topDivider,
+                         bottomDivider,
+                         hasBgColor,
+                         invertColor,
+                         pushLeft,
+                         ...props
+                       }) => {
 
   const outerClasses = classNames(
     'features-tiles section',
@@ -55,7 +55,7 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className="center-content"/>
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
@@ -63,10 +63,10 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
                       alt="Features tile icon 01"
                       width={64}
-                      height={64} />
+                      height={64}/>
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -82,16 +82,16 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                      src={require('./../../assets/images/ethereum-eth.svg')}
                       alt="Features tile icon 02"
                       width={64}
-                      height={64} />
+                      height={64}/>
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Contract is public and saved on the Ethereum Blockchain.
-                    </h4>
+                    Contract is public and saved on the Ethereum Blockchain
+                  </h4>
                 </div>
               </div>
             </div>
@@ -104,13 +104,13 @@ const FeaturesTiles = ({
                       src={require('./../../assets/images/feature-tile-icon-03.svg')}
                       alt="Features tile icon 03"
                       width={64}
-                      height={64} />
+                      height={64}/>
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Easy and Fast
-                    </h4>
+                    Decentralized Wedding
+                  </h4>
                 </div>
               </div>
             </div>

@@ -93,7 +93,7 @@ const FeaturesSplit = ({
                   Reply
                   </div>
                 <h3 className="mt-0 mb-12">
-                  You love reply to your request
+                  Your love reply to your request
                   </h3>
               </div>
               <div className={

@@ -1,13 +1,55 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import classNames from 'classnames';
-import { SectionProps } from '../../utils/SectionProps';
+import {SectionProps} from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import {useForm, ValidationError} from '@formspree/react';
 
 const propTypes = {
   ...SectionProps.types
+}
+
+function ContactForm() {
+  const [state, handleSubmit] = useForm("xjvjalbb");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
+  return (
+    <form onSubmit={handleSubmit}>
+      <label className="form-label" htmlFor="email">
+        Email Address
+      </label>
+      <input
+        className="form-input"
+        id="email"
+        type="email"
+        name="email"
+      />
+      <ValidationError
+        prefix="Email"
+        field="email"
+        errors={state.errors}
+      />
+      <label className="form-label" htmlFor="email">
+        Message
+      </label>
+      <textarea
+        className="form-input"
+        id="message"
+        name="message"
+      />
+      <ValidationError
+        prefix="Message"
+        field="message"
+        errors={state.errors}
+      />
+      <br/>
+      <button className="button button-primary button-wide-mobile" type="submit" disabled={state.submitting}>
+        Request a demo
+      </button>
+    </form>
+  );
 }
 
 const defaultProps = {
@@ -15,15 +57,15 @@ const defaultProps = {
 }
 
 const Hero = ({
-  className,
-  topOuterDivider,
-  bottomOuterDivider,
-  topDivider,
-  bottomDivider,
-  hasBgColor,
-  invertColor,
-  ...props
-}) => {
+                className,
+                topOuterDivider,
+                bottomOuterDivider,
+                topDivider,
+                bottomDivider,
+                hasBgColor,
+                invertColor,
+                ...props
+              }) => {
 
   const [videoModalActive, setVideomodalactive] = useState(false);
 
@@ -66,37 +108,26 @@ const Hero = ({
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 Generate a beautiful printable contract which it saved on the Blockchain.
-                </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Request a demo
-                    </Button>
-                </ButtonGroup>
-              </div>
+              </p>
+
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/form.jpeg')}
-                alt="Hero"
-                width={400}
-                height={300} />
-            </a>
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px"
+               data-reveal-delay="800">
+            <Image
+              className="has-shadow"
+              src={require('./../../assets/images/form.jpeg')}
+              alt="Hero"
+              width={400}
+              height={300}/>
           </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
+          <br />
+          <div  className="reveal-from-bottom" data-reveal-delay="1000">
+            <ButtonGroup>
+              <ContactForm/>
+            </ButtonGroup>
+
+          </div>
         </div>
       </div>
     </section>
