@@ -116,7 +116,7 @@ const FeaturesSplit = ({
                   Contract for all the life
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Generate a printable contract saved on the Ethereum Blockchain
+                  Generate a beautiful printable and scanable contract which it saved on the Blockchain.
                   </h3>
               </div>
               <div className={
@@ -126,7 +126,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/contract.svg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />

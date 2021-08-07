@@ -107,7 +107,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Generate a beautiful printable contract which it saved on the Blockchain.
+                Generate a beautiful printable and scanable contract which it saved on the Blockchain.
               </p>
 
             </div>
@@ -116,7 +116,7 @@ const Hero = ({
                data-reveal-delay="800">
             <Image
               className="has-shadow"
-              src={require('./../../assets/images/form.jpeg')}
+              src={require('./../../assets/images/contract.svg')}
               alt="Hero"
               width={400}
               height={300}/>
