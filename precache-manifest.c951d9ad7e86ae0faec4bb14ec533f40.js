@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5114660c2c6a983ebf970da7536e982d",
+    "revision": "a03808c0fc890134d18f7ea970141cad",
     "url": "/landingpage/index.html"
   },
   {
-    "revision": "0be3b404c0193d7d58d8",
+    "revision": "fff5e69fcbc8da9acdae",
     "url": "/landingpage/static/css/main.88bdecb9.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landingpage/static/js/2.40e78e9f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0be3b404c0193d7d58d8",
-    "url": "/landingpage/static/js/main.a03c9e4f.chunk.js"
+    "revision": "fff5e69fcbc8da9acdae",
+    "url": "/landingpage/static/js/main.a06abbeb.chunk.js"
   },
   {
     "revision": "9a173d02a741bfc22b81",
     "url": "/landingpage/static/js/runtime-main.82fab709.js"
   },
   {
-    "revision": "10cecd63d5d0fa3568b06523f9de1ff8",
-    "url": "/landingpage/static/media/contract.10cecd63.jpg"
+    "revision": "b750ca86530f059505ca60725967c537",
+    "url": "/landingpage/static/media/contract.b750ca86.jpg"
   },
   {
     "revision": "3ce357e71a836a86691b904396a8955c",
@@ -58,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "63d0555d90c053eea1a1a7469d004661",
     "url": "/landingpage/static/media/illustration-section-02.63d0555d.svg"
+  },
+  {
+    "revision": "736b7005920082897f6dca886034197c",
+    "url": "/landingpage/static/media/logo_eth_with_ring.736b7005.png"
   }
 ]);
