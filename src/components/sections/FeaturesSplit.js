@@ -80,7 +80,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/form.jpeg')}
+                  src={require('./../../assets/images/form_1.jpg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -103,7 +103,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/answer_form.jpeg')}
+                  src={require('./../../assets/images/form_2.jpg')}
                   alt="Features split 02"
                   width={628}
                   height={496} />
@@ -126,7 +126,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/contract.svg')}
+                  src={require('./../../assets/images/contract.jpg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
